@@ -1,7 +1,6 @@
 const input = document.querySelector("input");
 const button = document.getElementById("btn");
 const list = document.querySelector("ul");
-input.focus();
 
 button.addEventListener("click", function () {
   currentValue = input.value;
@@ -17,7 +16,6 @@ button.addEventListener("click", function () {
   btn.textContent = "Delete";
   
   //An attempt to prompt the add item button if the input field has a value. Work in progress.
-
   // input.addEventListener("input", function () {
   // if (input.currentValue.trim() !== "") {
   //      button.disabled = false;
@@ -30,4 +28,6 @@ button.addEventListener("click", function () {
   btn.addEventListener("click", function () {
     listItem.remove();
   });
+
+  input.focus();
 });
