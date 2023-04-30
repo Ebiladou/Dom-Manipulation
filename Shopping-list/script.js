@@ -15,7 +15,7 @@ button.addEventListener("click", function () {
   Span.textContent = currentValue;
   btn.textContent = "Delete";
   
-  //An attempt to prompt the add item button if the input field has a value. Work in progress.
+  //An attempt to prompt the add item button only if the input field has a value. Work in progress.
   // input.addEventListener("input", function () {
   // if (input.currentValue.trim() !== "") {
   //      button.disabled = false;
