@@ -1,2 +1,4 @@
 # Dom-Manipulation
-Each directory consist a different project, each working with the DOM.
+Working with the Document Object Model. 
+
+The repository consists different directories, all, distinct projects entirely.
